@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Backend.DataAccess;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -26,7 +27,7 @@ namespace Backend.Models
         #endregion
 
         #region Methods
-        public object GenerateToken(String id, String firstname, String lastname, String email)
+        public string GenerateToken(User user) //dodati objekat
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(this.SecretKey));
 
@@ -34,10 +35,10 @@ namespace Backend.Models
 
             var payloda = new[]
             {
-                new Claim("id", id),
-                new Claim("firstname", firstname),
-                new Claim("lastname", lastname),
-                new Claim("email", email),
+                new Claim("id", user.Id.ToString()),
+                new Claim("name", user.Name),
+                new Claim("lastName", user.Lastname),
+                new Claim("email", user.Email),
             };
 
             var jwtToken = new JwtSecurityToken(
@@ -48,9 +49,8 @@ namespace Backend.Models
                 signingCredentials: signature
                 );
 
-            var response = new { token = new JwtSecurityTokenHandler().WriteToken(jwtToken), status = "logged" };
+            var response = new JwtSecurityTokenHandler().WriteToken(jwtToken);
 
-            //return new JwtSecurityTokenHandler().WriteToken(jwtToken);
             return response;
         }
         #endregion

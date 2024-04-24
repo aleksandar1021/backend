@@ -3,36 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\enrolmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\enrolmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423190522_FixUserMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20240423190522_FixUserMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\models\\jwtservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\models\\jwtservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423180301_FixRoleMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20240423180301_FixRoleMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\nameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423175721_RoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20240423175721_RoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\configurations\\nameentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\configurations\\nameentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\configurations\\entityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\configurations\\entityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\dataaccess\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\dataaccess\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\models\\jwtservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\models\\jwtservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\migrations\\20240420212051_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\migrations\\20240420212051_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|c:\\users\\aleks\\desktop\\backend\\backend\\backend\\viewmodels\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5CFA19-E2EF-41F2-9917-D6396F694E9C}|Backend\\Backend.csproj|solutionrelative:backend\\viewmodels\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,45 +82,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\UserContext.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\UserContext.cs",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\UserContext.cs",
-              "RelativeToolTip": "Backend\\Models\\UserContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "20240423190522_FixUserMigration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423190522_FixUserMigration.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20240423190522_FixUserMigration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423190522_FixUserMigration.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20240423190522_FixUserMigration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T19:58:36.966Z",
+              "WhenOpened": "2024-04-23T19:05:22.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtServicecs.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\JwtServicecs.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\JwtServicecs.cs",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\JwtServicecs.cs",
-              "RelativeToolTip": "Backend\\Models\\JwtServicecs.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAcwDIAAABtAAAA",
+              "DocumentIndex": 10,
+              "Title": "NameEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\NameEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Configurations\\NameEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\NameEntityConfiguration.cs",
+              "RelativeToolTip": "Backend\\Configurations\\NameEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T21:30:39.318Z",
+              "WhenOpened": "2024-04-23T17:14:30.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Backend\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:13:43.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\appsettings.json",
-              "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-10T11:32:18.101Z",
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Role.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\Role.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Role.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:09:54.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\User.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\User.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:11:41.733Z",
               "EditorCaption": ""
             },
             {
@@ -91,62 +161,159 @@
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwCcAAAAsAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:15:36.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAEUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T11:29:35.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Backend.http",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Backend.http",
-              "RelativeDocumentMoniker": "Backend\\Backend.http",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Backend.http",
-              "RelativeToolTip": "Backend\\Backend.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-10T11:29:29.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\User.cs",
-              "RelativeToolTip": "Backend\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:11:41.733Z",
+              "WhenOpened": "2024-04-20T20:44:32.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\Login.cs",
-              "RelativeToolTip": "Backend\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Title": "EnrolmentContext.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\EnrolmentContext.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\EnrolmentContext.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\EnrolmentContext.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\EnrolmentContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T20:24:44.349Z",
+              "WhenOpened": "2024-04-20T20:42:40.961Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Entity.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\Entity.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Entity.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:14:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240423180301_FixRoleMigration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423180301_FixRoleMigration.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20240423180301_FixRoleMigration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423180301_FixRoleMigration.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20240423180301_FixRoleMigration.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:03:01.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240423175721_RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423175721_RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20240423175721_RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240423175721_RoleConfiguration.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20240423175721_RoleConfiguration.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwBgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:57:21.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NameEntity.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\NameEntity.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\NameEntity.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\NameEntity.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\NameEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:11:32.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Backend\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:20:18.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\EntityConfiguration.cs",
+              "RelativeDocumentMoniker": "Backend\\Configurations\\EntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Configurations\\EntityConfiguration.cs",
+              "RelativeToolTip": "Backend\\Configurations\\EntityConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:11:40.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Login.cs",
+              "RelativeDocumentMoniker": "Backend\\DataAccess\\Login.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\DataAccess\\Login.cs",
+              "RelativeToolTip": "Backend\\DataAccess\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:23:06.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAewEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:22:47.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtServicecs.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\JwtServicecs.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\JwtServicecs.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Models\\JwtServicecs.cs",
+              "RelativeToolTip": "Backend\\Models\\JwtServicecs.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:59:10.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240420212051_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240420212051_Initial.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20240420212051_Initial.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\Migrations\\20240420212051_Initial.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20240420212051_Initial.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:20:51.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\ViewModels\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Backend\\ViewModels\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\aleks\\Desktop\\backend\\Backend\\Backend\\ViewModels\\LoginResponse.cs",
+              "RelativeToolTip": "Backend\\ViewModels\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T12:06:33.686Z"
             }
           ]
         }

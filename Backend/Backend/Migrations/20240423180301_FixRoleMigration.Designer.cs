@@ -4,6 +4,7 @@ using Backend.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Migrations
 {
     [DbContext(typeof(EnrolmentContext))]
-    partial class UserContextModelSnapshot : ModelSnapshot
+    [Migration("20240423180301_FixRoleMigration")]
+    partial class FixRoleMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +51,10 @@ namespace Backend.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Roles");
                 });
@@ -110,20 +108,21 @@ namespace Backend.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
+                    b.HasIndex("RoleId");
+
                     b.HasIndex("Name", "Lastname", "Email");
 
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Backend.DataAccess.Role", b =>
-                {
-                    b.HasOne("Backend.DataAccess.User", null)
-                        .WithMany("Role")
-                        .HasForeignKey("UserId");
-                });
-
             modelBuilder.Entity("Backend.DataAccess.User", b =>
                 {
+                    b.HasOne("Backend.DataAccess.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Role");
                 });
 #pragma warning restore 612, 618

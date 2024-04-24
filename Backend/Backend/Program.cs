@@ -1,4 +1,4 @@
-using Backend.Models;
+using Backend.DataAccess;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -29,7 +29,7 @@ builder.Services.AddCors(options =>
 
 
 
-builder.Services.AddDbContext<UserContext>(options =>
+builder.Services.AddDbContext<EnrolmentContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyDBConnection"));
 

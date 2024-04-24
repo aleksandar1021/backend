@@ -4,6 +4,7 @@ using Backend.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend.Migrations
 {
     [DbContext(typeof(EnrolmentContext))]
-    partial class UserContextModelSnapshot : ModelSnapshot
+    [Migration("20240423175350_RoleMigration")]
+    partial class RoleMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +51,10 @@ namespace Backend.Migrations
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Roles");
                 });
@@ -99,9 +97,6 @@ namespace Backend.Migrations
                         .HasMaxLength(120)
                         .HasColumnType("nvarchar(120)");
 
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -113,18 +108,6 @@ namespace Backend.Migrations
                     b.HasIndex("Name", "Lastname", "Email");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("Backend.DataAccess.Role", b =>
-                {
-                    b.HasOne("Backend.DataAccess.User", null)
-                        .WithMany("Role")
-                        .HasForeignKey("UserId");
-                });
-
-            modelBuilder.Entity("Backend.DataAccess.User", b =>
-                {
-                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }

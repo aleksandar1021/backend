@@ -1,9 +1,9 @@
-﻿namespace Backend.Models
+﻿namespace Backend.DataAccess
 {
     public class Login
     {
         #region Properties
-        public string Email {  get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
         #endregion
     }
