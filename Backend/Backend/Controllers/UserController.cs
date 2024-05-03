@@ -42,7 +42,10 @@ namespace Backend.Controllers
         public IActionResult Login(Login user)
         {
             var isExistUser = _context.Users.Where(x => x.Email == user.Email).FirstOrDefault();
-            LoginResponse response = new LoginResponse();
+            ResponseMessage<LoginResponse> response = new ResponseMessage<LoginResponse>()
+            {
+                Data = new LoginResponse()  
+            }; ;
 
             try
             {
@@ -50,25 +53,24 @@ namespace Backend.Controllers
                 {
                     if (BCrypt.Net.BCrypt.Verify(user.Password, isExistUser.Password))
                     {
-                        response.Message = "Login successful";
-                        response.Status = "success";
-                        response.JwtToken = new JwtServicecs(_config).GenerateToken(isExistUser).ToString();
+                        response.Data.Message = "Login successful";
+                        response.Data.Token = new JwtServicecs(_config).GenerateToken(isExistUser).ToString();
                         return Ok(response);
                     }
                     else
                     {
-                        response.Message = "Password does not match";
-                        return StatusCode(400, response);
+                        response.Error = "Wrong credentials";
+                        return StatusCode(401, response);
                     }
                 }
                 else
                 {
-                    response.Message = "User not found";
-                    return StatusCode(404, response);
+                    response.Error = "Wrong credentials";
+                    return StatusCode(401, response);
                 }
             }catch(Exception ex)
             {
-                response.Message = ex.Message;
+                response.Error = ex.Message;
                 return StatusCode(500, response);
             }
         }

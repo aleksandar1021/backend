@@ -2,9 +2,7 @@
 {
     public class LoginResponse
     {
-        public string Message { get; set; }
-        public string Status { get; set; } = "error";
-        public string? JwtToken { get; set; } = null;
-
+        public string Message { get; set; } = "Successful";
+        public string Token { get; set; }
     }
 }

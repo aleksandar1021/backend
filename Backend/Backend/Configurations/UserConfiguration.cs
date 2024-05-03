@@ -24,9 +24,6 @@ namespace Backend.Configurations
                    .HasMaxLength(50)
                    .IsRequired();
 
-            builder.HasIndex(x => new { x.Name, x.Lastname, x.Email });
-
-
             builder.Property(x => x.Password)
                    .IsRequired()
                    .HasMaxLength(120);
